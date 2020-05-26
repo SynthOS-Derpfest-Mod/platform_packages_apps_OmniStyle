@@ -388,5 +388,14 @@
                 <category android:name="android.intent.category.DEFAULT" />
 	    </intent-filter>
 	</activity>
+        <activity
+            android:name=".synthos_dtf"
+            android:label="Darling in the Franxx - SynthOS" >
+            <intent-filter>
+                <action android:name="org.omnirom.DaylightHeaderPack1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 </manifest>
